@@ -12,5 +12,32 @@ function getComputerChoice() {
     else {
         computerSelection = "gun";
     }
-    console.log(computerSelection);
+}
+
+function playRound(playerSelection, computerSelection) {
+    if { 
+    ((playerSelection === "rock" && computerSelection === "rock")
+    ||
+    (playerSelection === "paper" && computerSelection === "paper")
+    ||
+    (playerSelection === "scissors" && computerSelection === "scissors")) 
+    console.log('You drew! No one wins!')
+    }
+
+    else if {
+    ((playerSelection === "rock" && computerSelection === "paper")
+    ||
+    (playerSelection === "paper" && computerSelection === "scissors")
+    ||
+    (playerSelection === "scissors" && computerSelection === "rock")) 
+    console.log("LOSER! YOU'RE A LOSER! ARE YOU FEELING SORRY FOR YOURSELF?") }
+
+    else if {
+    ((playerSelection === "paper" && computerSelection === "rock")
+    ||
+    (playerSelection === "scissors" && computerSelection === "paper")
+    ||
+    (playerSelection === "rock" && computerSelection === "scissors")) 
+    console.log("You're winner!") }
+    
 }
