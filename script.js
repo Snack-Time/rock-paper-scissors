@@ -1,13 +1,16 @@
-hello 
-
-ROCK PAPER SCISSORS 
-
-USER INPUTS ROCK PAPER OR SCISSORS
-
-COMPUTER CHOOSES ROCK PAPER OR SCISSORS
-
-A WINNER IS DECIDED FOR THE ROUND
-
-THE WINNER GETS 1 WIN COUNTED
-
-GO BACK TO START UNTIL SOMEONE WINS 5 TIMES 
+function getComputerChoice() {
+    let cpuChoice = Math.floor(Math.random()*3) + 1;
+    if (cpuChoice === 1) {
+        computerSelection = "rock";
+    }
+    else if (cpuChoice === 2) {
+        computerSelection = "paper";
+    }
+    else if (cpuChoice === 3) {
+        computerSelection = "scissors";
+    }
+    else {
+        computerSelection = "gun";
+    }
+    console.log(computerSelection);
+}
