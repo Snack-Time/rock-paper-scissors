@@ -1,1 +1,1 @@
-# rock-paper-scissors
+This is my Rock Paper Scissors project assignment as part of The Odin Project. 
