@@ -17,6 +17,7 @@ function getComputerChoice() {
     else {
         cpuRandomChoice = "gun";
     }
+    return cpuRandomChoice;
 }
 
 function playRound(playerSelection, computerSelection) {
@@ -43,4 +44,5 @@ function game() {
     computerSelection = getComputerChoice();
     console.log(computerSelection);
     playRound(playerSelection, computerSelection);
+    console.log(`You: ${playerWins}, CPU: ${computerWins}`)
 }
