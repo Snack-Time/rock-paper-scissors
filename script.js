@@ -41,7 +41,7 @@ function playRound(playerSelection, computerSelection) {
 function game() {
     alert("Welcome to William's 5 Round Rock Paper Scissors project!")
     alert("You will play 5 rounds against the Computer. Make sure the console log is open to see the results!")
-    for (let i = 0; i <= 5; i++) {
+    for (let i = 0; i < 5; i++) {
     playerSelection = prompt("Rock, paper, or scissors?");
     playerSelection = playerSelection.toLowerCase();
     computerSelection = getComputerChoice();
@@ -52,4 +52,6 @@ function game() {
     You: ${playerWins}
     CPU: ${computerWins}`)
     alert("Thanks for playing!")
+    computerWins = 0
+    playerWins = 0
 }
